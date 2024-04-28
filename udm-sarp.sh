@@ -37,7 +37,9 @@ for conf_file in ${conf_dir}/*.conf; do
 
         while read a; do
              [[ $a =~ ^#.* ]] && continue
-             arp -s $a
+             arp -s $a && 
+                logger "$me: added static arp entry: ${a}" || 
+                logger "$me: failed to add arp entry: ${a}"
         done <$conf_file
 
     fi
