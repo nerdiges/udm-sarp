@@ -1,0 +1,13 @@
+##############################################################################################
+#
+# Configuration
+#
+
+# directory with sarp config files. All *.conf files in the directory will be considered 
+# as valid static arp entries.
+conf_dir="/data/custom/sarp/"
+
+#
+# No further changes should be necessary beyond this line.
+#
+##############################################################################################
