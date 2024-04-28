@@ -1,0 +1,10 @@
+[Unit]
+Description=Set static ARP entries (e.g. for Wake-On-LAN).
+After=network-online.target
+
+[Service]
+WorkingDirectory=/data/custom/sarp
+ExecStart=/data/custom/sarp/udm-sarp.sh
+
+[Install]
+WantedBy=multi-user.target
