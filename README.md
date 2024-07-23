@@ -1,7 +1,7 @@
 # udm-sarp
 Statische ARP-Einträge auf der UDM Pro.
 
-In meinem Netzwerk nutze ich unterschiedliche Netzwerke, die mit der UDM Pro voneinander getrennt werden. Damit Systeme im Netzwerk per WOL mittels eines Magic-Packets gestartet werden können, muss die UDM PRo wissen in welches Netzwerksegment die WOL-Pakete weitergeleitet werden müssen. Dazu müssen statische ARP-Einträge angelegt werden, damit der UDM-Pro die MAC-Adresse für das ausgeschaltete System per ARP ermitteln kann.
+In meinem Netzwerk nutze ich unterschiedliche Netzwerke, die mit der UDM Pro voneinander getrennt werden. Damit Systeme im Netzwerk per WOL mittels eines Magic-Packets gestartet werden können, muss die UDM Pro wissen in welches Netzwerksegment die WOL-Pakete weitergeleitet werden müssen. Dazu müssen statische ARP-Einträge angelegt werden, damit der UDM-Pro die MAC-Adresse für das ausgeschaltete System per ARP ermitteln kann.
 
 ## Voraussetzungen
 Unifi Dream Machine Pro mit UnifiOS Version 3.x. Erfolgreich getestet mit UnifiOS 3.2.12 und Network App 8.0.28.

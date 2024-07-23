@@ -9,6 +9,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 - angelegte ARP-Einträge werden in desn Syslogs protokolliert.
 
+### Fixed
+
+- Typo in README.md
+
 
 ## [0.9.0] - 2024-04-28
 
